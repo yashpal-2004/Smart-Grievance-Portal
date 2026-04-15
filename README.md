@@ -2,7 +2,7 @@
 
 NexusCampus is a modern, high-energy community platform designed specifically for university students. It combines real-time social interactions, shared ordering, buddy finding, and campus support into a single, high-performance web application.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18, TypeScript, Vite
 - **Styling:** Tailwind CSS, Lucide React (Icons), Motion (Animations)
@@ -10,7 +10,7 @@ NexusCampus is a modern, high-energy community platform designed specifically fo
 - **AI Integration:** Google Gemini API (Health Assistant)
 - **Utilities:** date-fns, clsx, tailwind-merge
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
 1. **Clone the repository:**
    ```bash
@@ -35,7 +35,7 @@ NexusCampus is a modern, high-energy community platform designed specifically fo
    npm run dev
    ```
 
-## 🏗️ Architecture Explanation
+## Architecture Explanation
 
 NexusCampus follows a **Serverless Full-Stack Architecture**:
 - **Client-Side:** React handles the UI and state management. Real-time listeners (`onSnapshot`) ensure the UI stays in sync with the database without manual refreshes.
@@ -43,7 +43,7 @@ NexusCampus follows a **Serverless Full-Stack Architecture**:
 - **Security:** Firestore Security Rules enforce data integrity and ownership at the database level.
 - **AI Layer:** Gemini API is integrated directly into the frontend for real-time health assistance.
 
-## 👥 Team Members
+## Team Members
 
 - **Yashpal** (2401010517) - Project Initialization, Core Logic, and Frontend Migration (App Layout, Campus Services, AdminPanel)
 - **Vaishnavi Dhanai** (2401010489) - Component Synchronization (Profile, Support, Notifications) and Firebase Configuration Management
