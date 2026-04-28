@@ -4,10 +4,10 @@ NexusCampus is a modern, high-energy community platform designed specifically fo
 
 ## Tech Stack
 
-- **Frontend:** React 18, TypeScript, Vite
-- **Styling:** Tailwind CSS, Lucide React (Icons), Motion (Animations)
+- **Frontend:** React 19, TypeScript, Vite
+- **Styling:** Tailwind CSS v4, Lucide React (Icons), Motion (Animations)
 - **Backend:** Firebase (Firestore, Authentication)
-- **AI Integration:** Google Gemini API (Health Assistant)
+- **AI Integration:** Groq API (Llama 3.3 Wellness Assistant)
 - **Utilities:** date-fns, clsx, tailwind-merge
 
 ## Setup and Installation
@@ -26,7 +26,7 @@ NexusCampus is a modern, high-energy community platform designed specifically fo
 3. **Configure Environment Variables:**
    Create a `.env` file in the root directory and add:
    ```env
-   GEMINI_API_KEY=your_gemini_api_key
+   VITE_GROQ_API_KEY=your_groq_api_key
    ```
    Ensure `firebase-applet-config.json` is present with your Firebase credentials.
 
@@ -41,11 +41,11 @@ NexusCampus follows a **Serverless Full-Stack Architecture**:
 - **Client-Side:** React handles the UI and state management. Real-time listeners (`onSnapshot`) ensure the UI stays in sync with the database without manual refreshes.
 - **Backend-as-a-Service (BaaS):** Firebase Firestore acts as the real-time NoSQL database. Firebase Auth handles secure Google-based authentication.
 - **Security:** Firestore Security Rules enforce data integrity and ownership at the database level.
-- **AI Layer:** Gemini API is integrated directly into the frontend for real-time health assistance.
+- **AI Layer:** Groq API is integrated directly into the frontend for real-time wellness and medical assistance.
 
 ## Team Members
 
 - **Yashpal** (2401010517) - Project Initialization, Core Logic, and Frontend Migration (App Layout, Campus Services, AdminPanel)
 - **Vaishnavi Dhanai** (2401010489) - Component Synchronization (Profile, Support, Notifications) and Firebase Configuration Management
 - **Udit Jain** (2401010482) - UI/UX Development (Sidebar, Feed, Notifications, Responsive Layout) and Documentation
-- **Shobhit** (2401020065) - Feature Integration (User Connectivity, Login Flow, Query Component) and Asset Management (Brand Logo, Gemini API)
+- **Shobhit** (2401020065) - Feature Integration (User Connectivity, Login Flow, Query Component) and Asset Management (Brand Logo, Groq API)

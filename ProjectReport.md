@@ -34,7 +34,7 @@ University students often face challenges in campus communication, finding partn
 - `Notification` (id, recipient, message)
 
 ### Use Case Diagram
-- **Student:** Post Query, Upvote/Downvote, Join Blinkit Order, Find Buddy, Chat with Health AI.
+- **Student:** Post Query, Upvote/Downvote, Join Blinkit Order, Find Buddy, Chat with Wellness AI.
 - **Admin:** Resolve Queries, Manage Support Contacts.
 
 ### Sequence Diagram (Blinkit Workflow)
@@ -49,4 +49,4 @@ University students often face challenges in campus communication, finding partn
 - **Auth:** Verify only university-suffix emails can access (Logic implemented).
 - **Real-time:** Post a query on one tab, verify it appears on another instantly.
 - **Blinkit Timer:** Verify the "Join" button disables after the window expires.
-- **AI Assistant:** Verify Gemini returns medical advice with a disclaimer.
+- **AI Assistant:** Verify Groq (Llama 3) returns wellness advice with an institutional disclaimer.
